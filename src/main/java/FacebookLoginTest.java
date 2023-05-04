@@ -43,6 +43,9 @@ public void testFacebookLogin(){
     driver.findElement(By.id("pass")).sendKeys("your_facebook_password");
     driver.findElement(By.name("login")).click();
 
+
+
+
     //Verify login
     //driver.findElement(By,linkText("Find your account and log in."));
     WebElement element = driver.findElement(By.linkText("Find your account and log in"));
