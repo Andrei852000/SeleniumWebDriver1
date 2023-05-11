@@ -51,7 +51,7 @@ public void testFacebookLogin(){
     WebElement element = driver.findElement(By.linkText("Find your account and log in"));
     Assert.assertEquals(true , element.isDisplayed());
 
-
+//comment
     }
 }
 
